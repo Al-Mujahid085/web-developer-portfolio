@@ -529,7 +529,7 @@ input {
     text-align: justify;
 
     height: 200px;
-    padding: 50px 25px;
+    padding: auto 25px;
 
 
     border: 1px solid rgba(128, 128, 128, 0.164);
@@ -593,6 +593,18 @@ input {
   }
   .inner> ul> li{
     text-align: left;
+  }
+  .btn-primary, .btn-secondery{
+    border-radius: 5px;
+    background: #03d2f7;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+  
+    font-weight: 700;
+    padding: 10px 20px;
+  
   }
   
   
